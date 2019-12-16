@@ -1,5 +1,5 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/demogip/public_html/test
+ - export DEPLOYPATH=/home/demogip/public_html/hello
  - /usr/bin/rsync -avzh . $DEPLOYPATH
